@@ -7,7 +7,7 @@ class Cat(object):
 class BoSiMao(Cat):
 
     def __init__(self):
-        self.nose = ''
+        self.nose = Nose()
 
 
 class Nose(object):
@@ -18,3 +18,4 @@ class Nose(object):
 
 mao = BoSiMao()
 mao.eat()
+mao.nose.smell()
